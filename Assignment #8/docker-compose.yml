@@ -1,0 +1,6 @@
+version: '3'
+services:
+  numbers:
+    build: .
+    volumes:
+      - ./numbers.txt:/opt/numbers.txt
